@@ -65,42 +65,107 @@
         <img src="img/network.png" class="img-fluid" alt="Game Cover" style="height:400px;">
     </div>
 
-    <!-- Game Concept -->
-    <section id="news" class="content">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-lg-10 mx-auto">
-                    <h3 class="text-center">Project Description</h3>
-                    <p>
-                        This is a compilation of projects related to system and network setups. I enjoy working with
-                        hardware, troubleshooting issues, and finding effective solutions. My interests include
-                        configuring servers, optimizing network performance, and diagnosing hardware failures. I take
-                        pride in problem-solving and ensuring systems run efficiently. Whether it's setting up a new
-                        infrastructure, repairing faulty components, or enhancing security, I am always eager to take on
-                        new challenges in this field.
-                    </p>
+    <div class="container text-center mt-5">
+        <h2>Compilation of Setups</h2>
+        <p>Explore various system and network setups.</p>
+    </div>
+
+    <section class="container py-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/systemAndNetworksetup/OSInstallation.jpg" class="card-img-top" alt="Setup 1">
+                    <div class="card-body">
+                        <h5 class="card-title">OS Installation</h5>
+                        <p class="card-text short-text">OS Installation Using Lubuntu for a Lightweight System on an Old
+                            Laptop That Can't Support Additional RAM.</p>
+
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#setup1Modal">Read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/systemAndNetworksetup/pcTroubleshoot.jpg" class="card-img-top" alt="Setup 2">
+                    <div class="card-body">
+                        <h5 class="card-title">PC Troubleshoot</h5>
+                        <p class="card-text short-text">PC Troubleshooting Due to Faulty RAM</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#setup2Modal">Read
+                            More</button>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card h-100">
+                    <img src="img/systemAndNetworksetup/wiredAccessPoint.jpg" class="card-img-top" alt="Setup 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Wired Access Point</h5>
+                        <p class="card-text short-text">Wired Access Point for Our House with a 50-Meter Cable</p>
+                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#setup3Modal">Read
+                            More</button>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
-    <!-- Thin Separator Line -->
-    <hr class="custom-divider">
-    <!-- Game Showcase -->
-    <section class="showcase text-center pt-5">
-        <h2>Game Showcase</h2>
-        <div class="container">
-            <div class="row justify-content-center">
-                <div class="col-md-8">
-                    <iframe src="https://drive.google.com/file/d/1W--tJhkVaGiY6fOifXev8qsJZkzbb3fW/preview"
-                        class="w-100" height="360" allow="autoplay">
-                    </iframe>
 
+    <!-- Modals for detailed descriptions -->
+    <div class="modal fade" id="setup1Modal" tabindex="-1" aria-labelledby="setup1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="setup1ModalLabel">Server Rack Optimization</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    This old laptop was bought by my mother from her friend, and it turned out to be a bit of a bad
+                    purchase since she isn't very tech-savvy. However, I managed to make it work by installing Lubuntu,
+                    a lightweight OS, even though it doesn't support additional RAM.
                 </div>
             </div>
-
-
         </div>
-    </section>
+    </div>
+
+
+    <!-- Modals for detailed descriptions -->
+    <div class="modal fade" id="setup2Modal" tabindex="-1" aria-labelledby="setup1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="setup1ModalLabel">Server Rack Optimization</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    This is my old computer. After cleaning it, I encountered this error. It may have occurred because I
+                    disconnected the power cable and applied new thermal paste to the CPU, which could have caused a
+                    CMOS reset. Fortunately, the fix was simple—I just had to enter the BIOS and reboot.
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Modals for detailed descriptions -->
+    <div class="modal fade" id="setup3Modal" tabindex="-1" aria-labelledby="setup1ModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="setup1ModalLabel">Server Rack Optimization</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    The length of this wired access point is 40 meters, but I bought 50 meters in case of emergencies.
+                    The cable used is CAT-5 with a straight wiring type. Despite this, it still worked, likely due to
+                    the router's Auto MDI-X support. I encountered an issue accessing the router’s admin page due to a
+                    specific login requirement, but online resources helped resolve it. The most time-consuming task was
+                    lining the cable in the attic, which has a complex structure. After a week, a connectivity issue
+                    arose due to mice chewing the cable, requiring repairs and preventive measures.
+                </div>
+            </div>
+        </div>
+    </div>
+
 
 
 
