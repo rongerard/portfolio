@@ -262,7 +262,42 @@
           </div>
         </div>
 
- 
+<!-- Story Slide 4 -->
+<div class="story-slide">
+  <div class="story-text" style="margin: 10px 200px 0px 200px;">
+    <button type="button" class="contact-me" onclick="viewImage('img/certificates/ceis_certificate.jpg')">
+      View Certificate
+    </button> 
+  </div>
+</div>
+<script>
+// Store original modal content
+const setup2ModalBody = document.querySelector('#setup2Modal .modal-body').innerHTML;
+
+function viewImage(src) {
+  const modalBody = document.querySelector('#setup2Modal .modal-body');
+
+  // Replace content with the image
+  modalBody.innerHTML = `
+    <div class="text-center">
+      <img src="${src}" class="img-fluid rounded" alt="Preview" style="max-width: 750px;">
+    </div>
+    <div class="text-center mt-3">
+      <button class="contact-me" onclick="goBack()">Back</button>
+    </div>
+  `;
+}
+
+function goBack() {
+  const modalBody = document.querySelector('#setup2Modal .modal-body');
+  
+  // Restore the original content
+  modalBody.innerHTML = setup2ModalBody;
+}
+</script>
+
+
+
       </div>
     </div>
   </div>
