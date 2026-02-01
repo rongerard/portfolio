@@ -256,6 +256,14 @@ textarea {
     /* Adjust the size according to your preference */
 }
 
+#projects {
+    scroll-margin-top: 120px;
+}
+
+#experience {
+    scroll-margin-top: 120px;
+}
+
 
 
 /*FOOTER*/
