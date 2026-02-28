@@ -1,145 +1,220 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Ron</title>
 
     <!-- Bootstrap CSS -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
     <link rel="stylesheet" href="css/projects.css" type="text/css" />
-   <link rel="stylesheet" href="css/navbar.css" type="text/css" />
-
+    <link rel="stylesheet" href="css/navbar.css" type="text/css" />
 
     <script src="js/navbarScript.js" defer></script>
     <!-- Bootstrap JS Bundle (including Popper.js) -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" defer></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+      defer
+    ></script>
+  </head>
 
-</head>
+  <body>
+    <!-- Navigation Bar -->
+    <div id="navbar"></div>
 
-<body>
-
-<!-- Navigation Bar -->
-<div id="navbar"></div>
-
-    <div class="container text-center mt-6 custom-padding ">
-        <img src="img/network.png" class="img-fluid" alt="Game Cover" style="height:400px;">
+    <div class="container text-center mt-6 custom-padding">
+      <img
+        src="img/network.png"
+        class="img-fluid"
+        alt="Game Cover"
+        style="height: 400px"
+      />
     </div>
 
     <div class="container text-center mt-5">
-        <h2>Compilation of Setups</h2>
-        <p>Explore various system and network setups.</p>
+      <h2>Compilation of Setups</h2>
+      <p>Explore various system and network setups.</p>
     </div>
 
     <section class="container py-5">
-        <div class="row row-cols-1 row-cols-md-3 g-4">
-            <div class="col">
-                <div class="card h-100">
-                    <img src="img/systemAndNetworksetup/OSInstallation.jpg" class="card-img-top" alt="Setup 1">
-                    <div class="card-body">
-                        <h5 class="card-title">OS Installation</h5>
-                        <p class="card-text short-text">OS Installation Using Lubuntu for a Lightweight System on an Old
-                            Laptop That Can't Support Additional RAM.</p>
+      <div class="row row-cols-1 row-cols-md-3 g-4">
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="img/systemAndNetworksetup/1.jpg"
+              class="card-img-top"
+              alt="Setup 1"
+            />
+            <div class="card-body">
+              <h5 class="card-title">OS Installation</h5>
+              <p class="card-text short-text">
+                OS Installation Using Lubuntu for a Lightweight System on an Old
+                Laptop That Can't Support Additional RAM.
+              </p>
 
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#setup1Modal">Read
-                            More</button>
-                    </div>
-                </div>
+              <button
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#setup1Modal"
+              >
+                Read More
+              </button>
             </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="img/systemAndNetworksetup/pcTroubleshoot.jpg" class="card-img-top" alt="Setup 2">
-                    <div class="card-body">
-                        <h5 class="card-title">PC Troubleshoot</h5>
-                        <p class="card-text short-text">PC Troubleshooting Due to Faulty RAM</p>
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#setup2Modal">Read
-                            More</button>
-                    </div>
-                </div>
-            </div>
-            <div class="col">
-                <div class="card h-100">
-                    <img src="img/systemAndNetworksetup/wiredAccessPoint.jpg" class="card-img-top" alt="Setup 3">
-                    <div class="card-body">
-                        <h5 class="card-title">Wired Access Point</h5>
-                        <p class="card-text short-text">Wired Access Point for Our House with a 50-Meter Cable</p>
-                        <button class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#setup3Modal">Read
-                            More</button>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="img/systemAndNetworksetup/2.jpg"
+              class="card-img-top"
+              alt="Setup 2"
+            />
+            <div class="card-body">
+              <h5 class="card-title">PC Troubleshoot</h5>
+              <p class="card-text short-text">
+                PC Troubleshooting Due to Faulty RAM
+              </p>
+              <button
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#setup2Modal"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col">
+          <div class="card h-100">
+            <img
+              src="img/systemAndNetworksetup/3.jpg"
+              class="card-img-top"
+              alt="Setup 3"
+            />
+            <div class="card-body">
+              <h5 class="card-title">School Network Infrastructure</h5>
+              <p class="card-text short-text">
+                School Network Infrastructure Overhaul: Solved Long-Term
+                Connectivity Issues, Configured VLANs, Managed 31 APs, 8
+                Switches, 1 Router, and Repaired 25+ IP CCTV Cameras for
+                Reliable Network Performance.
+              </p>
+              <button
+                class="btn btn-primary"
+                data-bs-toggle="modal"
+                data-bs-target="#setup3Modal"
+              >
+                Read More
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
     </section>
 
     <!-- Modals for detailed descriptions -->
-    <div class="modal fade" id="setup1Modal" tabindex="-1" aria-labelledby="setup1ModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="setup1ModalLabel">OS Installation</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    My mother bought this old laptop cheaply from a friend, but it turned out to be a bad purchase
-                    since it only has 2GB of RAM, which most operating systems consume entirely. Plus, she isn't very
-                    tech-savvy. However, I managed to make it usable by installing Lubuntu, a lightweight OS, even
-                    though the laptop doesn't support additional RAM.
-                </div>
-            </div>
+    <div
+      class="modal fade"
+      id="setup1Modal"
+      tabindex="-1"
+      aria-labelledby="setup1ModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="setup1ModalLabel">OS Installation</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            My mother bought this old laptop cheaply from a friend, but it
+            turned out to be a bad purchase since it only has 2GB of RAM, which
+            most operating systems consume entirely. Plus, she isn't very
+            tech-savvy. However, I managed to make it usable by installing
+            Lubuntu, a lightweight OS, even though the laptop doesn't support
+            additional RAM.
+          </div>
         </div>
+      </div>
     </div>
-
 
     <!-- Modals for detailed descriptions -->
-    <div class="modal fade" id="setup2Modal" tabindex="-1" aria-labelledby="setup1ModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="setup1ModalLabel">PC TroubleShoot</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    This is my old computer. After cleaning it, I encountered this error. It may have occurred because I
-                    disconnected the power cable and applied new thermal paste to the CPU, which could have caused a
-                    CMOS reset. Fortunately, the fix was simple—I just had to enter the BIOS and reboot.
-                </div>
-            </div>
+    <div
+      class="modal fade"
+      id="setup2Modal"
+      tabindex="-1"
+      aria-labelledby="setup1ModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="setup1ModalLabel">PC TroubleShoot</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            This is my old computer. After cleaning it, I encountered this
+            error. It may have occurred because I disconnected the power cable
+            and applied new thermal paste to the CPU, which could have caused a
+            CMOS reset. Fortunately, the fix was simple—I just had to enter the
+            BIOS and reboot.
+          </div>
         </div>
+      </div>
     </div>
-
 
     <!-- Modals for detailed descriptions -->
-    <div class="modal fade" id="setup3Modal" tabindex="-1" aria-labelledby="setup1ModalLabel" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="setup1ModalLabel">Server Rack Optimization</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <div class="modal-body">
-                    The length of this wired access point is 40 meters, but I bought 50 meters in case of emergencies.
-                    The cable used is CAT-5 with a straight wiring type. Despite this, it still worked, likely due to
-                    the router's Auto MDI-X support. I encountered an issue accessing the router’s admin page due to a
-                    specific login requirement, but online resources helped resolve it. The most time-consuming task was
-                    lining the cable in the attic, which has a complex structure. After a week, a connectivity issue
-                    arose due to mice chewing the cable, requiring repairs and preventive measures.
-                </div>
-            </div>
+    <div
+      class="modal fade"
+      id="setup3Modal"
+      tabindex="-1"
+      aria-labelledby="setup1ModalLabel"
+      aria-hidden="true"
+    >
+      <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="setup1ModalLabel">Unifi Environment</h5>
+            <button
+              type="button"
+              class="btn-close"
+              data-bs-dismiss="modal"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div class="modal-body">
+            Redesigned and optimized a school network, organizing Layer 1
+            cabling, configuring Layer 2 VLANs for student, faculty, and staff
+            networks, and implementing Layer 3 routing for efficient traffic
+            flow. Deployed and configured 31 Wi-Fi access points, managed 8
+            switches and 1 router, and repaired 25+ IP CCTV cameras,
+            successfully solving a long-term network problem. The network
+            improvements were tested with 180+ concurrent users, resulting in
+            enhanced stability, reduced downtime, and easier maintenance for
+            future upgrades.
+          </div>
         </div>
+      </div>
     </div>
+  </body>
 
-
-
-
-
-</body>
-
-<footer>
+  <footer>
     <div class="container">
-        <p>&copy; 2025 - Ron</p>
+      <p>&copy; 2025 - Ron</p>
     </div>
-</footer>
-
+  </footer>
 </html>
